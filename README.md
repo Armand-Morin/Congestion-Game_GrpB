@@ -1,22 +1,22 @@
-## Congestion Game
+# Congestion Game
 Moulon district transport modeling using SUMO traffic simulation software
 
 <a href="https://sumo.dlr.de/docs"><img width=20% src="https://github.com/eclipse/sumo/blob/master/docs/web/docs/images/sumo-logo.svg"></p></a>
 
-# How to use
+### How to use
 - Download SUMO https://sumo.dlr.de
 - Execute run file
 
-# Area simulated :
+### Area simulated :
 ![image](https://user-images.githubusercontent.com/72650161/105868306-57872400-5ff6-11eb-9796-d487fb2eb0d1.png)
 
-# Resources:
+### Resources:
 - [SUMO DOC](https://sumo.dlr.de/docs)
 - [SUMO TUTORIALS](https://sumo.dlr.de/docs/Tutorials.html)
 
 
 
-# Files explanation:
+### Files explanation:
 - Node file (.node.xml)
 - Edge file (.edge.xml)
 - Edge type file (.type.xml)
@@ -25,7 +25,7 @@ Moulon district transport modeling using SUMO traffic simulation software
 - Configuration file (.sumo.cfg)
 - ....
 
-# Import a Map & Convert from .osm to xml (Sumo) :
+### Import a Map & Convert from .osm to xml (Sumo) :
 1) Open https://www.openstreetmap.or
 2) Download file (does not work for big area)
 3) Open folder containing osm file
@@ -35,4 +35,9 @@ Moulon district transport modeling using SUMO traffic simulation software
 7) Load network with Sumo
 
 ###### Other Possibilities
+- go to folder Sumo/tools
+- type cmd on the adresse bar and press enter
+- type python osmWebWizard.py
+- select area (check select area)
+- generate scenario
 
