@@ -5,5 +5,5 @@ Moulon district transport modeling and traffic simulation
 
 Files [code of conduct](https://github.com/files-community/files-uwp/blob/master/CODE_OF_CONDUCT.md)
 
-![Build](https://dev.azure.com/lukeblevins150823/Files%20UWP/_apis/build/status/Build%20Pipeline?branchName=main)
-[![Discord](https://discordapp.com/api/guilds/725513575971684472/widget.png)](https://discord.gg/mr5hVu8)
+[![Tutorial](https://sumo.dlr.de/docs/Tutorials.html)
+
