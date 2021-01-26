@@ -7,5 +7,5 @@ Moulon district transport modeling and traffic simulation
 - [SUMO](https://sumo.dlr.de/docs/Tutorials.html)
 
 
-[![Sumo Tutorial]<img width=50% src="https://github.com/eclipse/sumo/blob/master/docs/web/docs/images/sumo-logo.svg">](https://sumo.dlr.de/docs/Tutorials.html)
+[![Sumo Tutorial](<src="https://github.com/eclipse/sumo/blob/master/docs/web/docs/images/sumo-logo.svg">)](https://sumo.dlr.de/docs/Tutorials.html)
 
