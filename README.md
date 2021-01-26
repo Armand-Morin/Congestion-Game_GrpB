@@ -15,3 +15,10 @@ Moulon district transport modeling using SUMO traffic simulation software
 
 
 
+# Files explanation:
+1)	Node file (.node.xml)
+2)	Edge file (.edge.xml)
+3)	Edge type file (.type.xml)
+4)	Network from files (.net.xml)
+5)	Route file (.rou.xml)
+6)	Configuration file (.sumo.cfg)
