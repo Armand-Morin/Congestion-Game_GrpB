@@ -1,0 +1,19 @@
+Warning: busStop '-677507133' on lane '-115229320#1_0' is too short for vehicle '1_bus_7:0'.
+Warning: busStop '811025548' on lane '67144889#1_0' is too short for vehicle '1_bus_7:0'.
+Warning: busStop '5444780508' on lane '67096966#1_0' is too short for vehicle '1_bus_7:0'.
+Warning: busStop '6414402746' on lane '475020758#1_0' is too short for vehicle '2_bus_7:1'.
+Warning: busStop '1416618379' on lane '14464658#5_0' is too short for vehicle '3_bus_9:0'.
+Warning: busStop '1114038113' on lane '219752764#3_0' is too short for vehicle '3_bus_9:0'.
+Warning: busStop '-6552378820' on lane '-720845271_0' is too short for vehicle '4_bus_91-06:0'.
+Warning: busStop '1416623837' on lane '180964039#2_0' is too short for vehicle '6_bus_1:0'.
+Warning: busStop '1420980857' on lane '233525225#1_0' is too short for vehicle '9_bus_8:0'.
+Warning: No connection between edge '-47463290#0' and edge '26824594' found.
+Warning: busStop '-6558738846' for vehicle '10_bus_8:1' on lane '-47463290#0_0' is not downstream the current route.
+Warning: No connection between edge '140997933' and edge '233525227' found.
+Warning: Vehicle '9_bus_8:0' has no valid route from edge '140997933' to stop edge '233525227'.
+Warning: busStop '6166070861' on lane '370956704#9_0' is too short for vehicle '18_bus_4:0'.
+Warning: busStop '243898123' on lane '22737007#1_0' is too short for vehicle '22_bus_9:1'.
+Warning: busStop '1335923953@7886546' on lane '697183355#0_0' is too short for vehicle '22_bus_9:1'.
+Warning: busStop '-6451425151' on lane '-417206210#2_0' is too short for vehicle '34_bus_11:1'.
+Warning: Teleporting vehicle '9_bus_8:0'; waited too long (wrong lane), lane='140997933_0', time=506.00.
+Warning: Vehicle '9_bus_8:0' ends teleporting on edge '233525227', time 506.00.
