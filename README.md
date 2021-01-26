@@ -7,14 +7,9 @@ Moulon district transport modeling using SUMO traffic simulation software
 - Download SUMO https://sumo.dlr.de
 - Execute run file
 
-### Area simulated :
-![image](https://user-images.githubusercontent.com/72650161/105868306-57872400-5ff6-11eb-9796-d487fb2eb0d1.png)
-
 ### Resources:
 - [SUMO DOC](https://sumo.dlr.de/docs)
 - [SUMO TUTORIALS](https://sumo.dlr.de/docs/Tutorials.html)
-
-
 
 ### Files explanation:
 - Node file (.node.xml)
@@ -23,7 +18,12 @@ Moulon district transport modeling using SUMO traffic simulation software
 - Network from files (.net.xml)
 - Route file (.rou.xml)
 - Configuration file (.sumo.cfg)
+- Vehicules trips (osm.passenger.trips.xml)
+- Bus stops (trips.trips.xml)
 - ....
+
+### Area simulated :
+![image](https://user-images.githubusercontent.com/72650161/105868306-57872400-5ff6-11eb-9796-d487fb2eb0d1.png)
 
 ### Import a Map & Convert from .osm to xml (Sumo) :
 1) Open https://www.openstreetmap.or
@@ -40,4 +40,5 @@ Moulon district transport modeling using SUMO traffic simulation software
 - type python osmWebWizard.py
 - select area (check select area)
 - generate scenario
+
 
