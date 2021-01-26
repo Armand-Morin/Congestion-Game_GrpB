@@ -10,8 +10,9 @@ Moulon district transport modeling using SUMO traffic simulation software
 ## Area simulated :
 ![image](https://user-images.githubusercontent.com/72650161/105868306-57872400-5ff6-11eb-9796-d487fb2eb0d1.png)
 
-# Doc:
-- [SUMO](https://sumo.dlr.de/docs/Tutorials.html)
+# resources:
+- [SUMO DOC](https://sumo.dlr.de/docs)
+- [SUMO TUTORIALS](https://sumo.dlr.de/docs/Tutorials.html)
 
 
 
