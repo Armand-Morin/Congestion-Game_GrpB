@@ -25,10 +25,10 @@ Moulon district transport modeling using SUMO traffic simulation software
 - ....
 
 # Import a Map & Convert from .osm to xml (Sumo) :
-1- Open https://www.openstreetmap.or
-2- Download file (does not work for big area)
-3- Open folder containing osm file
-4- Type cmd on the adresse bar and press enter
-5- Type :  netconvert --osm-files map.osm -o test.net.xml  #(change the file name "test" before executing)
-6- Open NetEdit to personalize the network
-7- Load network with Sumo
+1) Open https://www.openstreetmap.or
+2) Download file (does not work for big area)
+3) Open folder containing osm file
+4) Type cmd on the adresse bar and press enter
+5) Type :  netconvert --osm-files map.osm -o test.net.xml  #(change the file name "test" before executing)
+6) Open NetEdit to personalize the network
+7) Load network with Sumo
