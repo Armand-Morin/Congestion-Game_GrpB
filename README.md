@@ -5,7 +5,9 @@ Moulon district transport modeling using SUMO traffic simulation software
 
 ### How to use
 - Download SUMO https://sumo.dlr.de
-- Execute run file
+- Execute run file : sumo-gui -c osm.sumocfg
+- run build.bat file to generate some xml files (by default: random trips)
+- change inputs and outputs in osm.sumocfg
 
 ### Resources:
 - [SUMO DOC](https://sumo.dlr.de/docs)
