@@ -77,15 +77,15 @@ To get this output run :
 
 
 ### Results:
-- Graph showing the quantity of vehicles running on the network as a function of time. Note that there is a peak in the number of cars between 8.15am and 8.45am, which corresponds well to the high demand on the road network during this rush hour period. (The simulation starts at 8 a.m.)
+Graph showing the quantity of vehicles running on the network as a function of time. Note that there is a peak in the number of cars between 8.15am and 8.45am, which corresponds well to the high demand on the road network during this rush hour period. (The simulation starts at 8 a.m.)
 To get this file run :
-`python "%SUMO_HOME%\tools\plot_summary.py" -i time.xml -o summary_running.png --xtime1 --ygrid --ylabel "running vehicles [#]" --xlabel "time" --title "running vehicles over time" --adjust .14,.1` 
+- `python "%SUMO_HOME%\tools\plot_summary.py" -i time.xml -o summary_running.png --xtime1 --ygrid --ylabel "running vehicles [#]" --xlabel "time" --title "running vehicles over time" --adjust .14,.1` 
 
 ![time repartition](https://user-images.githubusercontent.com/72650161/106441773-c04d2100-647a-11eb-8a52-82e3ca2ee8ad.png)
 
-- This graph represents the histogram of the distribution of the travel times of individuals on the Moulon network. We notice that most individuals make a journey of less than 6 minutes which shows that the journey is rather fluid on the Moulon.
+This graph represents the histogram of the distribution of the travel times of individuals on the Moulon network. We notice that most individuals make a journey of less than 6 minutes which shows that the journey is rather fluid on the Moulon.
 To get this file run : 
-`python "%SUMO_HOME%\tools\plot_tripinfo_distributions.py" -i true.xml -o tripinfo_distribution_duration.png -v -m duration --minV 0 --maxV 3600 --bins 10 --xticks 0,3601,360,14 --xlabel "duration [s]" --ylabel "number [#]" --title "duration distribution" --yticks 14 --xlabelsize 14 --ylabelsize 14 --titlesize 16 -l mon,tue-thu,fri,sat,sun --adjust .14,.1 --xlim 0,3600`
+- `python "%SUMO_HOME%\tools\plot_tripinfo_distributions.py" -i true.xml -o tripinfo_distribution_duration.png -v -m duration --minV 0 --maxV 3600 --bins 10 --xticks 0,3601,360,14 --xlabel "duration [s]" --ylabel "number [#]" --title "duration distribution" --yticks 14 --xlabelsize 14 --ylabelsize 14 --titlesize 16 -l mon,tue-thu,fri,sat,sun --adjust .14,.1 --xlim 0,3600`
 
 ![tripduration](https://user-images.githubusercontent.com/72650161/106441804-cc38e300-647a-11eb-8845-b4ec38a4e537.png)
 
