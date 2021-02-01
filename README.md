@@ -10,15 +10,61 @@ Moulon district transport modeling using SUMO traffic simulation software
 - change inputs and outputs in osm.sumocfg
 
 ### Files explanation:
+- run.bat
+This file is used to launch the simulation
+
 - Node file (.node.xml)
+file for netedit
+
 - Edge file (.edge.xml)
+
 - Edge type file (.type.xml)
+
 - Network from files (.net.xml)
+
 - Route file (.rou.xml)
-- Configuration file (.sumo.cfg)
+
+- Configuration file (osm.sumocfg)
+In this file it is necessary to specify the names of the files which will contain the data of the output simulation. It must be done between the input and output tags
+
 - Vehicules trips (osm.passenger.trips.xml)
+
 - Bus stops (trips.trips.xml)
-- ....
+
+- osm.pedestrian.trips.xml 
+pedestrian routes on the network
+
+- osm.passenger.trips.xml
+car passengers routes on the network
+
+- osm_ptlines.xml
+create bus lines that stop at bus stops
+
+- osm_stops.add.xml
+create bus stops
+
+- vehroutes.xml
+inofs about vehicles used 
+
+- emissions.xml 
+This file will create additional output files names: edges.emissions.dump.xml / edges.traffic.dump.xml / lanes.emissions.dump.xml / lanes.traffic.dump.xml
+
+- edges.emissions.dump.xml / edges.traffic.dump.xml / lanes.emissions.dump.xml / lanes.traffic.dump.xml
+These files contain information on emissions and traffic
+
+- time.xml
+contains information on travel times and waiting times
+
+the following files correspond to additional xml files that represent the real demand of the people who want to go to the different schools and universities of Moulon. 
+It is not the same for staff and students
+- polytech_studentDemand.add.xml
+- polytech_personnelDemand.add.xml
+- centrale_personnelDemand.add.xml
+- centrale_studentDemand.add.xml
+- ens_personnelDemand.add.xml
+- ens_studentDemand.add.xml
+- iut_personnelDemand.add.xml
+- iut_studentDemand.add.xml
 
 ### Area simulated : the area of the Moulon plateau (Centralesupelec)
 ![image](https://user-images.githubusercontent.com/72650161/105868306-57872400-5ff6-11eb-9796-d487fb2eb0d1.png)
