@@ -44,7 +44,8 @@ Moulon district transport modeling using SUMO traffic simulation software
 Sumo offers the possibility to view outputs posted on the network:
 
 - Average speed of cars on the network. (The redder it is, the faster the cars are on the road). Note that the axis of the N118 is a fast axis.
-To get this output run : `python "%SUMO_HOME%\tools\vizualisation\plot_net_speeds.py" -n osm.net.xml --xlim 1000,25000 --edge-width 4 -o C:\Users\Armand\Downloads\network_speeds3.png --minV 0 --maxV 20 --colormap jet`
+To get this output run : 
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_speeds.py" -n osm.net.xml --xlim 1000,25000 --edge-width 4 -o C:\Users\Armand\Downloads\network_speeds3.png --minV 0 --maxV 20 --colormap jet`
 
 ![vitesse_reseau](https://user-images.githubusercontent.com/72650161/106245493-cf2e9c00-620c-11eb-997d-9381d6ccb606.png)
 
@@ -53,26 +54,38 @@ To get this output run : `python "%SUMO_HOME%\tools\vizualisation\plot_net_speed
 ![feux_rouges](https://user-images.githubusercontent.com/72650161/106442537-a9f39500-647b-11eb-93e5-d754b38f677b.png)
 
 - Average CO2 emissions on the network. We can notice that some roads ‘those in green are not very polluted because few cars pass there)
-
+To get this output various possibilities you can run one or the other : 
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_perVeh,CO2_perVeh   -i edges.emissions.dump.xml,edges.emissions.dump.xml --min-color-value 0 --max-color-value 40 --colormap jet`
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_perVeh,CO2_perVeh  --default-width 3 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 3  --min-color-value 0 --max-color-value 40 --colormap jet`
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_normed,CO2_normed  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 2 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060`
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_normed,CO2_normed  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 2 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060`
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_perVeh,CO2_perVeh  --default-width 3 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width 50  --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060`
 ![CO2](https://user-images.githubusercontent.com/72650161/106442598-bed02880-647b-11eb-8ce3-2894abfa5b8e.png)
 
 - Average Nox emissions on the network
+To get this output various possibilities you can run one or the other : 
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures NOx_normed,NOx_normed  --default-width 10 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width 1  --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060`
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures NOx_normed,NOx_normed  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 2 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060`
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures NOx_normed,NOx_normed  --default-width 3 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width 2  --min-color-value 0 --max-color-value 40 --colormap jet`
+`python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures NOx_normed,NOx_normed  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 2 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060`
 
 ![edges emissions_NOx_normed](https://user-images.githubusercontent.com/72650161/106442749-f048f400-647b-11eb-9e8f-f5ee34589247.png)
 
 - Congestion with real demand and offer 
-
+To get this output run : 
 ![NOX_real_demand](https://user-images.githubusercontent.com/72650161/106442837-0fe01c80-647c-11eb-8a97-5055e188dc6e.png)
 
 
 ### Results:
 - Graph showing the quantity of vehicles running on the network as a function of time. Note that there is a peak in the number of cars between 8.15am and 8.45am, which corresponds well to the high demand on the road network during this rush hour period. (The simulation starts at 8 a.m.)
-To get this file run :`python "%SUMO_HOME%\tools\plot_summary.py" -i time.xml -o summary_running.png --xtime1 --ygrid --ylabel "running vehicles [#]" --xlabel "time" --title "running vehicles over time" --adjust .14,.1` 
+To get this file run :
+`python "%SUMO_HOME%\tools\plot_summary.py" -i time.xml -o summary_running.png --xtime1 --ygrid --ylabel "running vehicles [#]" --xlabel "time" --title "running vehicles over time" --adjust .14,.1` 
 
 ![time repartition](https://user-images.githubusercontent.com/72650161/106441773-c04d2100-647a-11eb-8a52-82e3ca2ee8ad.png)
 
 - This graph represents the histogram of the distribution of the travel times of individuals on the Moulon network. We notice that most individuals make a journey of less than 6 minutes which shows that the journey is rather fluid on the Moulon.
-To get this file run : `python "%SUMO_HOME%\tools\plot_tripinfo_distributions.py" -i true.xml -o tripinfo_distribution_duration.png -v -m duration --minV 0 --maxV 3600 --bins 10 --xticks 0,3601,360,14 --xlabel "duration [s]" --ylabel "number [#]" --title "duration distribution" --yticks 14 --xlabelsize 14 --ylabelsize 14 --titlesize 16 -l mon,tue-thu,fri,sat,sun --adjust .14,.1 --xlim 0,3600`
+To get this file run : 
+`python "%SUMO_HOME%\tools\plot_tripinfo_distributions.py" -i true.xml -o tripinfo_distribution_duration.png -v -m duration --minV 0 --maxV 3600 --bins 10 --xticks 0,3601,360,14 --xlabel "duration [s]" --ylabel "number [#]" --title "duration distribution" --yticks 14 --xlabelsize 14 --ylabelsize 14 --titlesize 16 -l mon,tue-thu,fri,sat,sun --adjust .14,.1 --xlim 0,3600`
 
 ![tripduration](https://user-images.githubusercontent.com/72650161/106441804-cc38e300-647a-11eb-8845-b4ec38a4e537.png)
 
