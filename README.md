@@ -24,34 +24,40 @@ file for netedit
 
 In this file it is necessary to specify the names of the files which will contain the data of the output simulation. It must be done between the input and output tags
 - Configuration file (osm.sumocfg)
-
 - Vehicules trips (osm.passenger.trips.xml)
-
 - Bus stops (trips.trips.xml)
 
 pedestrian routes on the network
 - osm.pedestrian.trips.xml 
 
+
 car passengers routes on the network
 - osm.passenger.trips.xml
+
 
 create bus lines that stop at bus stops
 - osm_ptlines.xml
 
+
 create bus stops
 - osm_stops.add.xml
+
 
 inofs about vehicles used 
 - vehroutes.xml
 
+
 This file will create additional output files names: edges.emissions.dump.xml / edges.traffic.dump.xml / lanes.emissions.dump.xml / lanes.traffic.dump.xml
 - emissions.xml 
+
 
 These files contain information on emissions and traffic
 - edges.emissions.dump.xml / edges.traffic.dump.xml / lanes.emissions.dump.xml / lanes.traffic.dump.xml
 
+
 contains information on travel times and waiting times
 - time.xml
+
 
 the following files correspond to additional xml files that represent the real demand of the people who want to go to the different schools and universities of Moulon. 
 It is not the same for staff and students
