@@ -1,0 +1,29 @@
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_abs,CO2_abs  --default-width 10 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width .5  --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_abs,CO2_abs  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width .5  --min-color-value 0 --max-color-value 40 --default-color #606060
+
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_perVeh,CO2_perVeh  --default-width 3 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width 50  --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_perVeh,CO2_perVeh  --default-width 3 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 50  --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures NOx_normed,NOx_normed  --default-width 10 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width 1  --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_normed,CO2_normed  --default-width 10 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width 1 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_normed,CO2_normed  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 2 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures NOx_normed,NOx_normed  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 2 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_abs,CO2_abs  --default-width 10 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width .5  --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_abs,CO2_abs  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width .5  --min-color-value 0 --max-color-value 40 --default-color #606060
+
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_perVeh,CO2_perVeh   -i edges.emissions.dump.xml,edges.emissions.dump.xml --min-color-value 0 --max-color-value 40 --colormap jet
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_perVeh,CO2_perVeh  --default-width 3 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 3  --min-color-value 0 --max-color-value 40 --colormap jet
+
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures NOx_normed,NOx_normed  --default-width 3 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width 2  --min-color-value 0 --max-color-value 40 --colormap jet
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_normed,CO2_normed  --default-width 10 -i edges.emissions.dump.xml,edges.emissions.dump.xml --default-width 1 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures CO2_normed,CO2_normed  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 2 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+python "%SUMO_HOME%\tools\vizualisation\plot_net_dump.py" -v -n osm.net.xml --measures NOx_normed,NOx_normed  --default-width 10 -i lanes.emissions.dump.xml,lanes.emissions.dump.xml --default-width 2 --min-color-value 0 --max-color-value 40 --colormap #0:#00c000,.25:#408040,.5:#808080,.75:#804040,1:#c00000 --default-color #606060
+
+python "%SUMO_HOME%\tools\vizualisation\plot_net_speeds.py" -n osm.net.xml --xlim 1000,25000 --edge-width 4 -o C:\Users\Armand\Downloads\network_speeds3.png --minV 0 --maxV 20 --colormap jet
+
+python "%SUMO_HOME%\tools\plot_summary.py" -i time.xml -o summary_running.png --xtime1 --ygrid --ylabel "running vehicles [#]" --xlabel "time" --title "running vehicles over time" --adjust .14,.1 
+
+python "%SUMO_HOME%\tools\plot_tripinfo_distributions.py" -i true.xml -o tripinfo_distribution_duration.png -v -m duration --minV 0 --maxV 3600 --bins 10 --xticks 0,3601,360,14 --xlabel "duration [s]" --ylabel "number [#]" --title "duration distribution" --yticks 14 --xlabelsize 14 --ylabelsize 14 --titlesize 16 -l mon,tue-thu,fri,sat,sun --adjust .14,.1 --xlim 0,3600

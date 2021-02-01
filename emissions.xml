@@ -1,0 +1,6 @@
+<additional>
+    <edgeData id="edges_traffic_dump" file="edges.traffic.dump.xml" excludeEmpty="true" />
+    <edgeData id="edges_emissions_dump" type="emissions" file="edges.emissions.dump.xml" excludeEmpty="true" />
+	<laneData id="lanes_traffic_dump" file="lanes.traffic.dump.xml" excludeEmpty="true" />
+	<laneData id="lanes_emissions_dump" file="lanes.emissions.dump.xml" excludeEmpty="true" />
+</additional>

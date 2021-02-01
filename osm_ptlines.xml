@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/28/21 10:16:52 by Eclipse SUMO netconvert Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="2117115" name="Bus 91-11 : Gare de Saint-Quentin-en-Yvelines → Gare de Massy-Palaiseau" line="91-11" type="bus" vClass="bus" completeness="0.13">
+        <route edges="554317503#0 554317503#1 554317503#2 96000895#0 96000895#1 96000895#2 741703406 720574245#0 857725441 741703401 720559662 720559656 720559652 677368054#0 677368054#1 414507703 414507704#0 414507704#1 160212545#0 414507706 414507708 423114712 414507705 174970470#0 174970470#1 174970470#3 174970470#5 414507707 26611620#0 26611620#1 26611556 392689405 26611452"/>
+        <busStop id="1482218088" name="CEA Porte Nord"/>
+        <busStop id="6551894431" name="Christ de Saclay"/>
+        <busStop id="1341753310" name="La Martinière"/>
+        <busStop id="1341753421" name="La Martinière"/>
+    </ptLine>
+    <ptLine id="2337722" name="Bus 7 : Corbeville - Plateau du Moulon → Gare d&apos;Orsay - L&apos;Yvette" line="7" type="bus" vClass="bus" completeness="0.67">
+        <route edges="20437760#0 20437760#1 20437767#0 20437767#1 782860080 691254185 -758220776 -758220777 -770887940#0 -533535799 -475020758#7 -475020758#5 -475020758#4 -475020758#3 -475020758#2 -475020758#1 -475020758#0 115229328 -174955280#3 -174955280#2 -174955280#1 -447214435 -115229320#2 -115229320#1 -115229320#0 -442773112#1 -442773112#0 115229330 233525235 15389819#0 15389819#1 15389819#2 15389819#4 15389819#5"/>
+        <busStop id="1722770104" name="Université Paris-Saclay"/>
+        <busStop id="-6414402742" name="Lieu de Vie"/>
+        <busStop id="-1855952972" name="De Broglie"/>
+        <busStop id="-677507133" name="Bois des Rames"/>
+    </ptLine>
+    <ptLine id="2337723" name="Bus 7 : Gare d&apos;Orsay - L&apos;Yvette → Corbeville - Plateau du Moulon" line="7" type="bus" vClass="bus" completeness="0.67">
+        <route edges="-15389819#5 -15389819#4 -15389819#2 -15389819#1 -15389819#0 27024380 442773112#0 442773112#1 115229320#0 115229320#1 115229320#2 447214435 174955280#1 174955280#2 174955280#3 174955279 684607203#0 684607203#1 475020758#0 475020758#1 475020758#2 475020758#3 475020758#4 475020758#5 475020758#7 533535799 770887940#0 770887940#1 758220776 -691254185 -782860080 -20437767#1 -20437767#0 22737007#0 22737007#1"/>
+        <busStop id="1855952971" name="Bois des Rames"/>
+        <busStop id="6414402746" name="De Broglie"/>
+        <busStop id="6414402745" name="Lieu de Vie"/>
+        <busStop id="-6414402744" name="Université Paris-Saclay"/>
+    </ptLine>
+    <ptLine id="2337965" name="Bus 9 : Centre Commercial Ulis 2 → Jouy-en-Josas RER" line="9" type="bus" vClass="bus" completeness="0.39">
+        <route edges="131339230 47463090#1 701943519 701943518 701943517 701943516 701943515 131340350#0 131340350#1 15229937#0 15229937#1 15229937#2 15229937#3 15229937#4 15229937#5 15229937#6 15229955 143311245#0 143311245#1 527943457#1 219752764#0 219752764#1 219752764#2 219752764#3 44848109#0 44848109#1 715087202#0 715087202#1 581669019 20437760#0 20437760#1 20437767#0 20437767#1 -863336412#5 -863336412#4 -863336412#3 -863336412#2 -863336412#1 -863336412#0 404275706#1 404275706#3 -404277029#1 -404277029#0 720845271 -832745421#10 -832745421#9 -832745421#8 -832745421#7 -832745421#6 -832745421#5 -832745421#3 -832745421#1 -293817953 -436119957#3 -436119957#2 -436119957#1 -436119957#0 697667210 609807964 618971107#1 741972944#0 857725441 741703401 720559662 720559656 720559652 677368054#0 677368054#1 414507703 414507704#0 414507704#1 160212545#0 -22736355#6 -22736355#4 -22736355#3 -22736355#2 -22736355#1 -22736355#0 -482015497#4 -482015497#3 -482015497#2 -482015497#1 -482015497#0 -119870351#2 -119870351#1 -119870351#0"/>
+        <busStop id="1732826824" name="Gare du Guichet"/>
+        <busStop id="1420982408" name="Versailles"/>
+        <busStop id="1114038113" name="Mûriers"/>
+        <busStop id="1335923953" name="Plateau de Moulon - Corbeville"/>
+        <busStop id="-4096918910" name="Université Paris-Saclay"/>
+        <busStop id="-6551894444" name="Moulon TCSP"/>
+        <busStop id="-3980845786" name="Joliot-Curie"/>
+        <busStop id="-1345294971" name="Orme des Merisiers"/>
+        <busStop id="-5905118384" name="Saint-Aubin"/>
+        <busStop id="-5905124633" name="Mare du Vivier - CEA Porte Sud"/>
+        <busStop id="-5905118364" name="Raoul Dautry - CEA Porte Est"/>
+        <busStop id="-1722769930" name="Martinière"/>
+        <busStop id="-1722769969" name="Mairie de Saclay"/>
+    </ptLine>
+    <ptLine id="2389880" name="Bus 91-11 : Gare de Massy-Palaiseau → Gare de Saint-Quentin-en-Yvelines" line="91-11" type="bus" vClass="bus" completeness="0.14">
+        <route edges="-26611452 -392689405 26611562 26611589#0 26611589#1 -414507707 -174970470#6 -174970470#3 -174970470#2 -174970470#0 -414507705 -423114712 -414507708 -414507706 -160212545#0 -414507704#1 -414507704#0 -414507703 -677368054#1 -677368054#0 807008160 20437831 782693445 20437833#0 96000893#2 541344750 618971110 96000896#0 96000896#1 96000896#2 -554317503#2 -554317503#1 -554317503#0"/>
+        <busStop id="-8105460805" name="La Martinière"/>
+        <busStop id="-1341753267" name="La Martinière"/>
+        <busStop id="1722769927" name="Le Christ de Saclay"/>
+        <busStop id="1894213657" name="CEA Porte Nord"/>
+    </ptLine>
+    <ptLine id="2393297" name="Bus 10 : Christ de Saclay → Gare de Gif" line="10" type="bus" vClass="bus" completeness="0.25">
+        <route edges="746815354 746815353 534486156 436119958 741972942 746815352 746815351 -436113242#0 618971108#0 -609807964 -609807963 -414507701 20437822#0 20437822#1 -261656893 -414507702#1 -414507702#0 -414507700#0 -414507699 832745415#0 832745414#1 -134237556 -260325008"/>
+        <busStop id="5905118364@2393297" name="Raoul Dautry - CEA Porte Est"/>
+    </ptLine>
+    <ptLine id="2393298" name="Bus 10 : Gare de Gif → Christ de Saclay" line="10" type="bus" vClass="bus" completeness="0.25">
+        <route edges="260325008 134237556 832745420#1 832749271 414507699 414507700#0 414507700#1 414507702#1 261656893 20437812#0 20437812#1 414507698 697667210 609807964 618971107#1 609807962 541365489 746815354 746815353 534486156 436119958 741972942 746815352"/>
+        <busStop id="5905118364@2393298" name="Raoul Dautry - CEA Porte Est"/>
+    </ptLine>
+    <ptLine id="2393300" name="Bus 10 : Gare de Gif → Saint Aubin → Christ de Saclay" line="10" type="bus" vClass="bus" completeness="0.17">
+        <route edges="42724038#0 42724038#1 134237556 832745420#1 832749271 414507699 414507700#0 414507700#1 414507702#1 261656893 20437812#0 20437812#1 414507698 697667210 609807964 618971107#1 609807962 541365489 746815354 746815353 534486156 436119958 741972942 746815352"/>
+        <busStop id="5905118364@2393298" name="Raoul Dautry - CEA Porte Est"/>
+    </ptLine>
+    <ptLine id="2393303" name="Bus 91-06 : Christ de Saclay → Gare de Massy-Palaiseau" line="91-06" type="bus" vClass="bus" completeness="0.69">
+        <route edges="746815353 534486156 436119958 741972942 746815352 746815351 -436113242#0 618971108#0 -609807964 -609807963 436119957#0 436119957#1 436119957#2 436119957#3 293817953 832745421#0 832745421#3 832745421#5 832745421#6 832745421#7 832745421#8 832745421#9 832745421#10 -720845271 404277029#0 404277029#1 -404275706#3 -404275706#2 863336412#0 863336412#1 863336412#2 863336412#3 863336412#4 863336412#5 782860080 691254185 417610536#0 446506378 455371646 455371645 -292491931#1 -292491931#0 -455371643 -455371642#1 -455371642#0 -361585732#2 -361585732#1 -361585732#0 219719294#2 219719294#3 219719294#5 219719294#6 219719294#7 219719294#8 219719294#9 697839700 404287181#0 404287181#1 404287181#2 404287181#4 747059915#0 747059915#1 747059915#2 489344451#0 489344451#1 741201990#0 741201990#1 741201990#2 741201990#3"/>
+        <busStop id="5905123676" name="Raoul Dautry - CEA Porte Est"/>
+        <busStop id="5905118351" name="Mare du Vivier - CEA Porte Sud"/>
+        <busStop id="6551894428" name="Saint-Aubin"/>
+        <busStop id="1345294973" name="Orme des Merisiers"/>
+        <busStop id="-6552378820" name="Joliot-Curie"/>
+        <busStop id="6551894425" name="Moulon TCSP"/>
+        <busStop id="6551894424" name="Université Paris-Saclay"/>
+        <busStop id="-6551894423" name="Corbeville"/>
+        <busStop id="6938530460" name="Ferme de la Vauve"/>
+        <busStop id="6551894422" name="Palaiseau - Campus"/>
+        <busStop id="6938530462" name="Place Marguerite Perey"/>
+    </ptLine>
+    <ptLine id="2393305" name="Bus 91-06 : Gare de Massy-Palaiseau → Christ de Saclay" line="91-06" type="bus" vClass="bus" completeness="0.69">
+        <route edges="-741201990#3 -741201990#2 -741201990#1 -741201990#0 -489344451#1 -489344451#0 867981793 406513809#0 406513809#1 406017622#0 406017622#1 406017622#3 406017622#4 406017622#5 -697839700 -219719294#9 -219719294#8 -219719294#7 -219719294#6 -219719294#5 -219719294#3 -219719294#2 -219719294#0 361585732#1 361585732#2 455371641 455371642#1 455371643 722225470 292491931#1 440954769 -455371646 -446506378 -417610536#1 -691254185 -782860080 -863336412#5 -863336412#4 -863336412#3 -863336412#2 -863336412#1 -863336412#0 404275706#1 404275706#3 -404277029#1 -404277029#0 720845271 -832745421#10 -832745421#9 -832745421#8 -832745421#7 -832745421#6 -832745421#5 -832745421#3 -832745421#1 -293817953 -436119957#3 -436119957#2 -436119957#1 -436119957#0 697667210 609807964 618971107#1 609807962 541365489 746815354"/>
+        <busStop id="6938530459" name="Ferme de la Vauve"/>
+        <busStop id="-6938530461" name="Place Marguerite Perey"/>
+        <busStop id="-6551894447" name="Palaiseau - Campus"/>
+        <busStop id="1114038111" name="Corbeville"/>
+        <busStop id="-4096918910" name="Université Paris-Saclay"/>
+        <busStop id="-6551894444" name="Moulon TCSP"/>
+        <busStop id="-3980845786" name="Joliot-Curie"/>
+        <busStop id="-1345294971" name="Orme des Merisiers"/>
+        <busStop id="-5905118384" name="Saint-Aubin"/>
+        <busStop id="-5905124633" name="Mare du Vivier - CEA Porte Sud"/>
+        <busStop id="-5905118364" name="Raoul Dautry - CEA Porte Est"/>
+    </ptLine>
+    <ptLine id="2440110" name="Bus 14 : Fresnel - Vauve → Gare de Palaiseau-Villebon → Gare de Massy-Palaiseau" line="14" type="bus" vClass="bus" completeness="0.04">
+        <route edges="697770152 376385690#0 376385690#1 376385690#2 376385690#3 376385690#4 376385690#5 404287181#0 404287181#1 404287181#2 404287181#4 -747059917 363081449#0 363081449#1 363081449#2 363081449#3 363081449#4 339736822#0 339736822#1 339736822#2 339736822#3 741201990#0 741201990#1 741201990#2 741201990#3"/>
+        <busStop id="972212303" name="Polytechnique Laboratoire"/>
+    </ptLine>
+    <ptLine id="2440111" name="Bus 14 : Gare de Massy-Palaiseau → Gare de Palaiseau-Villebon → Fresnel - Vauve" line="14" type="bus" vClass="bus" completeness="0.04">
+        <route edges="-741201990#3 -741201990#2 -741201990#1 -741201990#0 -339736822#3 -339736822#2 -339736822#1 -339736822#0 -363081449#4 -363081449#3 -363081449#2 -363081449#1 -363081449#0 406017622#0 406017622#1 406017622#3 406017622#4 406017622#5 697770118#1 697770118#2 697770118#3 697770118#4 697770118#5 697770118#6 697770118#7 697770118#8"/>
+        <busStop id="5462237881" name="Polytechnique Laboratoire"/>
+    </ptLine>
+    <ptLine id="2661807" name="Bus 91-10 : Orly → Saint-Quentin-en-Yvelines" line="91-10" type="bus" vClass="bus" completeness="0.32">
+        <route edges="-741201990#3 -741201990#2 -741201990#1 -741201990#0 -489344451#1 -489344451#0 867981793 406513809#0 406513809#1 406017622#0 406017622#1 406017622#3 406017622#4 406017622#5 -697839700 -219719294#9 -219719294#8 -219719294#7 -219719294#6 -219719294#5 -219719294#3 -219719294#2 -219719294#0 361585732#1 361585732#2 455371641 455371642#1 455371643 722225470 292491931#1 440954769 -455371646 -446506378 -417610536#1 -691254185 -782860080 -863336412#5 -863336412#4 -863336412#3 -863336412#2 -863336412#1 -863336412#0 404275706#1 404275706#3 -404277029#1 -404277029#0 720845271 -832745421#10 -832745421#9 -832745421#8 -832745421#7 -832745421#6 -832745421#5 -832745421#3 -832745421#1 -293817953 -436119957#3 -436119957#2 -436119957#1 -436119957#0 697667210 609807964 618971107#1 741972944#0 741972945 96000893#2 541344750 618971110 96000896#0 96000896#1 96000896#2 -554317503#2 -554317503#1 -554317503#0"/>
+        <busStop id="6938530459" name="Ferme de la Vauve"/>
+        <busStop id="-6938530461" name="Place Marguerite Perey"/>
+        <busStop id="-6551894447" name="Palaiseau - Campus"/>
+        <busStop id="1114038111" name="Corbeville"/>
+        <busStop id="-4096918910" name="Université Paris-Saclay"/>
+        <busStop id="-6551894444" name="Moulon TCSP"/>
+        <busStop id="-3980845786" name="Joliot-Curie"/>
+        <busStop id="-1345294971" name="Orme des Merisiers"/>
+        <busStop id="-5905118384" name="Saint-Aubin"/>
+        <busStop id="-5905124633" name="Mare du Vivier - CEA Porte Sud"/>
+        <busStop id="-5905118364" name="Raoul Dautry - CEA Porte Est"/>
+        <busStop id="1894213657" name="CEA Porte Nord"/>
+    </ptLine>
+    <ptLine id="5673868" name="Bus 8 : Couturier → Orsay-Ville RER" line="8" type="bus" vClass="bus" completeness="0.50">
+        <route edges="696788631 140997949 140997933 60844538 140997942 37523270#0 37523270#1 37523270#2 233525227 37520995 -380969252 -164014447 97236180#0 22766391#0 22766391#1 22766391#3 47463290#0 47463290#1"/>
+        <busStop id="1363114625" name="Martinière"/>
+        <busStop id="1429827410" name="Buisson"/>
+        <busStop id="-1429827411" name="Aristide Briand"/>
+        <busStop id="1420980850" name="École du Guichet"/>
+    </ptLine>
+    <ptLine id="5673869" name="Bus 8 : Orsay-Ville RER → Couturier" line="8" type="bus" vClass="bus" completeness="0.40">
+        <route edges="-47463290#1 -47463290#0 -47463291 -22766391#2 -22766391#0 97236158#1 97236164 380969252 142757141#0 142757141#1 -60844541#1 -60844541#0 -233525228#1 -233525228#0 -233525227 -140997942 -60844538 26824603 380969254 26824594"/>
+        <busStop id="-6558738846" name="École du Guichet"/>
+        <busStop id="3842587705" name="Aristide Briand"/>
+        <busStop id="-3833357079" name="Châteaufort"/>
+        <busStop id="1363114626" name="Corniche"/>
+    </ptLine>
+    <ptLine id="6985617" name="Bus 91-08 : Mairie des Ulis → Centre Commercial (Vélizy)" line="91-08" type="bus" vClass="bus" completeness="0.50">
+        <route edges="362262996 24341374 164014459 -22764742#0 -22764741#1 -22764741#0 -22764743#0 140038552#0 164014452#1 164014452#2 135702200#0 135702200#1 47463134#0 47463134#1 47463134#2 47463134#3 697712600#1 -701943514 -174970474#1 47463090#1 701943519 701943518 701943517 701943516 701943515 131340350#0 131340350#1 135702201#0 135702201#1 -164014452#2 -164014452#1 -140038552#0 22764743#0 233525237 22764741#1 22764742#0 39325781#0 39325781#1 392575750 362262995 22737018 392575756 370956706 697183346#0 697183346#1 697183346#2 697183346#3 697183346#4 697183346#5 697183346#6 697183346#7 697183346#8 96144335 -22737000 22736999 581669014#0 -446506377#2 -446506377#1 -417610536#1 -691254185 -782860080 -20437767#1 -20437767#0 22737007#0 22737007#1 697183355#0 697183355#1 697183355#2 697183355#3 697183355#4 697183355#5 697183355#6 697183355#7 697183355#8 697183355#9 22736998 22737000 22737001#0 22737001#1 22737015 606974223 606974219 606974212#0 606974212#1 606974210 720559657 606996749#1 606996744 606996738 145831268 606996733"/>
+        <busStop id="1732826840" name="Gare du Guichet RER"/>
+        <busStop id="-6414402744" name="Université Paris-Saclay"/>
+    </ptLine>
+    <ptLine id="6985618" name="Bus 91-08: Centre Commercial (Vélizy) → Mairie des Ulis" line="91-08" type="bus" vClass="bus" completeness="0.67">
+        <route edges="326226466 145831277#1 145831277#2 145831277#3 274428499 606974222 22737003 20437760#0 20437760#1 20437767#0 20437767#1 782860080 691254185 417610536#0 446506377#1 446506377#2 581669015#1 22737019 131339233 697865649 131339230 47463090#1 701943519 701943518 701943517 701943516 701943515 131340350#0 131340350#1 15093785#0 15093785#1 15093785#3 66967887 697865649"/>
+        <busStop id="1722770104" name="Université Paris-Saclay"/>
+        <busStop id="1732826814" name="Gare du Guichet RER"/>
+    </ptLine>
+    <ptLine id="6985619" name="Bus 91-08: Fresnel - Vauve → Centre Commercial (Vélizy)" line="91-08" type="bus" vClass="bus" completeness="0.75">
+        <route edges="697770152 376385690#0 376385690#1 376385690#2 376385690#3 376385690#4 376385690#5 -697839700 -219719294#9 -219719294#8 -219719294#7 -219719294#6 -219719294#5 -219719294#3 -219719294#2 -219719294#0 361585732#1 361585732#2 455371641 455371642#1 455371643 722225470 292491931#1 440954769 -455371646 -446506378 -417610536#1 -691254185 -782860080 -20437767#1 -20437767#0 22737007#0 22737007#1 697183355#0 697183355#1 697183355#2 697183355#3 697183355#4 697183355#5 697183355#6 697183355#7 697183355#8 697183355#9 22736998 22737000 22737001#0 22737001#1 22737015 606974223 606974219 606974212#0 606974212#1 606974210 720559657 606996749#1 606996744 606996738 145831268 606996733"/>
+        <busStop id="-6551894447" name="Palaiseau - Campus"/>
+        <busStop id="1114038111" name="Corbeville"/>
+        <busStop id="-6414402744" name="Université Paris-Saclay"/>
+    </ptLine>
+    <ptLine id="6985620" name="Bus 91-08: Centre Commercial (Vélizy) → Fresnel - Vauve" line="91-08" type="bus" vClass="bus" completeness="0.75">
+        <route edges="326226466 145831277#1 145831277#2 145831277#3 274428499 606974222 22737003 20437760#0 20437760#1 20437767#0 20437767#1 782860080 691254185 417610536#0 446506378 455371646 455371645 -292491931#1 -292491931#0 -455371643 -455371642#1 -455371642#0 -361585732#2 -361585732#1 -361585732#0 219719294#2 219719294#3 219719294#5 219719294#6 219719294#7 219719294#8 219719294#9 697839700 697770118#1 697770118#2 697770118#3 697770118#4 697770118#5 697770118#6 697770118#7 697770118#8"/>
+        <busStop id="1722770104" name="Université Paris-Saclay"/>
+        <busStop id="-6551894423" name="Corbeville"/>
+        <busStop id="6551894422" name="Palaiseau - Campus"/>
+    </ptLine>
+    <ptLine id="7105211" name="Bus 91-10 : Saint-Quentin-en-Yvelines → Orly" line="91-10" type="bus" vClass="bus" completeness="0.33">
+        <route edges="554317503#0 554317503#1 554317503#2 96000895#0 96000895#1 96000895#2 741703406 720574245#0 741972943 618971108#0 -609807964 -609807963 436119957#0 436119957#1 436119957#2 436119957#3 293817953 832745421#0 832745421#3 832745421#5 832745421#6 832745421#7 832745421#8 832745421#9 832745421#10 -720845271 404277029#0 404277029#1 -404275706#3 -404275706#2 863336412#0 863336412#1 863336412#2 863336412#3 863336412#4 863336412#5 782860080 691254185 417610536#0 446506378 455371646 455371645 -292491931#1 -292491931#0 -455371643 -455371642#1 -455371642#0 -361585732#2 -361585732#1 -361585732#0 219719294#2 219719294#3 219719294#5 219719294#6 219719294#7 219719294#8 219719294#9 697839700 404287181#0 404287181#1 404287181#2 404287181#4 747059915#0 747059915#1 747059915#2 489344451#0 489344451#1 741201990#0 741201990#1 741201990#2 741201990#3"/>
+        <busStop id="1482218088" name="CEA Porte Nord"/>
+        <busStop id="6551894431" name="Christ de Saclay"/>
+        <busStop id="5905123676" name="Raoul Dautry - CEA Porte Est"/>
+        <busStop id="5905118351" name="Mare du Vivier - CEA Porte Sud"/>
+        <busStop id="6551894428" name="Saint-Aubin"/>
+        <busStop id="1345294973" name="Orme des Merisiers"/>
+        <busStop id="-6552378820" name="Joliot-Curie"/>
+        <busStop id="6551894425" name="Moulon TCSP"/>
+        <busStop id="6551894424" name="Université Paris-Saclay"/>
+        <busStop id="-6551894423" name="Corbeville"/>
+        <busStop id="6551894422" name="Palaiseau - Campus"/>
+        <busStop id="6938530462" name="Place Marguerite Perey"/>
+        <busStop id="6938530460" name="Ferme de la Vauve"/>
+    </ptLine>
+    <ptLine id="7707600" name="Bus 16 : Razel (Saclay) → Gare d&apos;Igny" line="16" type="bus" vClass="bus" completeness="0.22">
+        <route edges="119870351#0 119870351#1 119870351#2 482015497#0 482015497#1 482015497#2 482015497#3 482015497#4 22736355#0 22736355#1 22736355#2 22736355#3 22736355#4 22736355#6 414507706 414507708 117563152 538209283 423114711#0 423114711#1 423114711#2 -61935857#5 -61935857#4 -61935857#3 -61935857#2 -61935857#1 -61935857#0 -61884384"/>
+        <busStop id="5210102792" name="Mairie de Saclay"/>
+        <busStop id="1341753421" name="La Martinière"/>
+    </ptLine>
+    <ptLine id="7707601" name="Bus 16: Gare d&apos;Igny → Razel (Saclay)" line="16" type="bus" vClass="bus" completeness="0.22">
+        <route edges="61884384 61935857#0 61935857#1 61935857#2 61935857#3 61935857#4 61935857#5 -423114711#2 -423114711#1 -423114711#0 22763060#0 22763060#1 22763060#2 -414507706 -22736355#6 -22736355#4 -22736355#3 -22736355#2 -22736355#1 -22736355#0 -482015497#4 -482015497#3 -482015497#2 -482015497#1 -482015497#0 -119870351#2 -119870351#1 -119870351#0"/>
+        <busStop id="-1722769930" name="Martinière"/>
+        <busStop id="-1722769969" name="Mairie de Saclay"/>
+    </ptLine>
+    <ptLine id="7886546" name="Bus 9 : Jouy-en-Josas RER → Centre Commercial Ulis 2" line="9" type="bus" vClass="bus" completeness="0.43">
+        <route edges="119870351#0 119870351#1 119870351#2 482015497#0 482015497#1 482015497#2 482015497#3 482015497#4 22736355#0 22736355#1 22736355#2 22736355#3 22736355#4 22736355#6 -160212545#0 -414507704#1 -414507704#0 -414507703 -677368054#1 -677368054#0 807008160 20437831 782693445 20437833#0 20437823 741972943 618971108#0 -609807964 -609807963 436119957#0 436119957#1 436119957#2 436119957#3 293817953 832745421#0 832745421#3 832745421#5 832745421#6 832745421#7 832745421#8 832745421#9 832745421#10 -720845271 404277029#0 404277029#1 -404275706#3 -404275706#2 863336412#0 863336412#1 863336412#2 863336412#3 863336412#4 863336412#5 -20437767#1 -20437767#0 22737007#0 22737007#1 697183355#0 697183355#1 697183355#2 697183355#3 697183355#4 697183355#5 697183355#6 697183355#7 697183355#8 697183355#9 581669016 -715087202#1 -715087202#0 -44848109#1 -44848109#0 -219752764#3 -219752764#2 -219752764#1 -219752764#0 -527943457#1 -143311245#2 -143311245#0 143311247 47463134#0 47463134#1 47463134#2 47463134#3 697712600#1 -701943514 -174970474#1 -131339230"/>
+        <busStop id="5210102792" name="Mairie de Saclay"/>
+        <busStop id="-1341753267" name="La Martinière"/>
+        <busStop id="6551894431@7886546" name="Christ de Saclay"/>
+        <busStop id="5905123676" name="Raoul Dautry - CEA Porte Est"/>
+        <busStop id="5905118351" name="Mare du Vivier - CEA Porte Sud"/>
+        <busStop id="6551894428" name="Saint-Aubin"/>
+        <busStop id="1345294973" name="Orme des Merisiers"/>
+        <busStop id="-6552378820" name="Joliot-Curie"/>
+        <busStop id="6551894425" name="Moulon TCSP"/>
+        <busStop id="243898123" name="Plateau de Moulon - Corbeville"/>
+        <busStop id="1335923953@7886546" name="Plateau de Moulon - Corbeville"/>
+        <busStop id="6551894424" name="Université Paris-Saclay"/>
+        <busStop id="-6552378817" name="Mûriers"/>
+        <busStop id="-1420982413" name="Versailles"/>
+        <busStop id="-1341778473" name="Gare du Guichet RER"/>
+    </ptLine>
+    <ptLine id="8537339" name="RER B4 : Gare du Nord → Saint-Rémy-lès-Chevreuse" line="B" type="train" vClass="rail" completeness="0.03">
+        <busStop id="635550116" name="Lozère (voie 1)"/>
+    </ptLine>
+    <ptLine id="8537340" name="RER B4 : Mitry-Claye → Saint-Rémy-lès-Chevreuse" line="B" type="train" vClass="rail" completeness="0.03">
+        <busStop id="635550116" name="Lozère (voie 1)"/>
+    </ptLine>
+    <ptLine id="8537341" name="RER B4 : Aéroport CDG 2 → Saint-Rémy-lès-Chevreuse" line="B" type="train" vClass="rail" completeness="0.03">
+        <busStop id="635550116" name="Lozère (voie 1)"/>
+    </ptLine>
+    <ptLine id="8537342" name="RER B5 : Saint-Rémy-lès-Chevreuse → Mitry-Claye" line="B" type="train" vClass="rail" completeness="0.05">
+        <route edges="103240654 103240673"/>
+        <busStop id="1192019234" name="Le Guichet (voie 2)"/>
+        <busStop id="5836393503" name="Lozère (voie 2)"/>
+    </ptLine>
+    <ptLine id="8537343" name="RER B3 : Saint-Rémy-lès-Chevreuse → Aéroport CDG 2" line="B" type="train" vClass="rail" completeness="0.05">
+        <route edges="103240654 103240673"/>
+        <busStop id="1192019234" name="Le Guichet (voie 2)"/>
+        <busStop id="5836393503" name="Lozère (voie 2)"/>
+    </ptLine>
+    <ptLine id="8537344" name="RER B1 : Saint-Rémy-lès-Chevreuse → Gare du Nord" line="B" type="train" vClass="rail" completeness="0.07">
+        <route edges="103240654 103240673"/>
+        <busStop id="1192019234" name="Le Guichet (voie 2)"/>
+        <busStop id="5836393503" name="Lozère (voie 2)"/>
+    </ptLine>
+    <ptLine id="9696600" name="Bus 9 : Campus HEC → Gare du Guichet" line="9" type="bus" vClass="bus" completeness="0.83">
+        <route edges="-20442961#1 -20442961#0 20442963#0 20442963#1 20442963#2 20437823 741972943 618971108#0 -609807964 -609807963 436119957#0 436119957#1 436119957#2 436119957#3 293817953 832745421#0 832745421#3 832745421#5 832745421#6 832745421#7 832745421#8 832745421#9 832745421#10 -720845271 404277029#0 404277029#1 -404275706#3 -404275706#2 863336412#0 863336412#1 863336412#2 863336412#3 863336412#4 863336412#5 -20437767#1 -20437767#0 22737007#0 22737007#1 697183355#0 697183355#1 697183355#2 697183355#3 697183355#4 697183355#5 697183355#6 697183355#7 697183355#8 697183355#9 581669016 -715087202#1 -715087202#0 -44848109#1 -44848109#0 -219752764#3 -219752764#2 -219752764#1 -219752764#0 -527943457#1 -143311245#2 -143311245#0 143311247 47463134#0 47463134#1 47463134#2 47463134#3 697712600#1 -701943514"/>
+        <busStop id="6551894431@7886546" name="Christ de Saclay"/>
+        <busStop id="5905123676" name="Raoul Dautry - CEA Porte Est"/>
+        <busStop id="5905118351" name="Mare du Vivier - CEA Porte Sud"/>
+        <busStop id="6551894428" name="Saint-Aubin"/>
+        <busStop id="1345294973" name="Orme des Merisiers"/>
+        <busStop id="-6552378820" name="Joliot-Curie"/>
+        <busStop id="6551894425" name="Moulon TCSP"/>
+        <busStop id="6551894424" name="Université Paris-Saclay"/>
+        <busStop id="-6552378817" name="Mûriers"/>
+        <busStop id="-1420982413" name="Versailles"/>
+    </ptLine>
+    <ptLine id="9696601" name="Bus 9 : Gare du Guichet → Campus HEC" line="9" type="bus" vClass="bus" completeness="0.82">
+        <route edges="701943517 701943516 701943515 131340350#0 131340350#1 15229937#0 15229937#1 15229937#2 15229937#3 15229937#4 15229937#5 15229937#6 15229955 143311245#0 143311245#1 527943457#1 219752764#0 219752764#1 219752764#2 219752764#3 44848109#0 44848109#1 715087202#0 715087202#1 581669019 20437760#0 20437760#1 20437767#0 20437767#1 -863336412#5 -863336412#4 -863336412#3 -863336412#2 -863336412#1 -863336412#0 404275706#1 404275706#3 -404277029#1 -404277029#0 720845271 -832745421#10 -832745421#9 -832745421#8 -832745421#7 -832745421#6 -832745421#5 -832745421#3 -832745421#1 -293817953 -436119957#3 -436119957#2 -436119957#1 -436119957#0 697667210 609807964 618971107#1 741972944#0 741972945 20437840#0 20437840#1 20437840#2 20442961#0 20442961#1"/>
+        <busStop id="1420982408" name="Versailles"/>
+        <busStop id="1114038113" name="Mûriers"/>
+        <busStop id="-4096918910" name="Université Paris-Saclay"/>
+        <busStop id="-6551894444" name="Moulon TCSP"/>
+        <busStop id="-3980845786" name="Joliot-Curie"/>
+        <busStop id="-1345294971" name="Orme des Merisiers"/>
+        <busStop id="-5905118384" name="Saint-Aubin"/>
+        <busStop id="-5905124633" name="Mare du Vivier - CEA Porte Sud"/>
+        <busStop id="-5905118364" name="Raoul Dautry - CEA Porte Est"/>
+    </ptLine>
+    <ptLine id="9698290" name="Bus 91-08: Centre Commercial (Vélizy) → Rond-Point Mondétour → Mairie des Ulis" line="91-08" type="bus" vClass="bus" completeness="0.33">
+        <route edges="326226466 145831277#1 145831277#2 145831277#3 274428499 606974222 697848280 131339233 697865649 131339230 47463090#1 701943519 701943518 701943517 701943516 701943515 131340350#0 131340350#1 15093785#0 15093785#1 15093785#3 66967887 697865649"/>
+        <busStop id="1732826814" name="Gare du Guichet RER"/>
+    </ptLine>
+    <ptLine id="9986030" name="Bus 11 : Parc Orsay Université → Gare de Gif-sur-Yvette" line="11" type="bus" vClass="bus" completeness="0.50">
+        <route edges="134233673#0 134233673#2 745161146 20437787 684607203#0 684607203#1 475020758#0 475020758#1 475020758#2 475020758#3 475020758#4 475020758#5 475020758#7 174955283#0 174955283#2 174955283#3 174955283#5 174955283#6 174955283#7 174955283#8 417206210#0 417206210#1 417206210#2 174955284#0 174955284#1 174955284#2 408883117 383176690#0 383176690#1 383176690#2 383176690#3 383176690#4 -20437797#4 -20437797#3 -20437797#2 -20437797#1 -832745421#10 -832745421#9 -832745421#8 -832745421#7 -832745421#6 -832745421#5 -832745421#3 -832745421#1 832745414#1 -134237556 -260325008"/>
+        <busStop id="6414402746" name="De Broglie"/>
+        <busStop id="6414402745" name="Lieu de Vie"/>
+        <busStop id="6451425150" name="CentraleSupélec"/>
+        <busStop id="-6451425152" name="Joliot Curie"/>
+        <busStop id="-1345294971" name="Orme des Merisiers"/>
+    </ptLine>
+    <ptLine id="9986031" name="Bus 11 : Gare de Gif-sur-Yvette → Parc Orsay Université" line="11" type="bus" vClass="bus" completeness="0.38">
+        <route edges="260325008 134237556 832745421#0 832745421#3 832745421#5 832745421#6 832745421#7 832745421#8 832745421#9 832745421#10 20437797#1 20437797#2 20437797#3 20437797#4 -383176690#4 -383176690#3 -383176690#2 -383176690#1 -383176690#0 -408883117 -174955284#2 -174955284#1 -174955284#0 -417206210#2 -417206210#1 -417206210#0 -174955283#8 -174955283#7 -174955283#6 -174955283#5 -174955283#3 -174955283#2 -174955283#0 -475020758#7 -475020758#5 -475020758#4 -475020758#3 -475020758#2 -475020758#1 -475020758#0 -684607203#1 -684607203#0 -20437787 -745161146"/>
+        <busStop id="6451425153" name="Joliot Curie"/>
+        <busStop id="-6451425151" name="CentraleSupélec"/>
+        <busStop id="-6414402742" name="Lieu de Vie"/>
+    </ptLine>
+</ptLines>

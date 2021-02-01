@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 01/28/21 10:16:52 by Eclipse SUMO netconvert Version 1.8.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertUrbanDe.typ.xml,C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvertPedestrians.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <pedestrian>
+        <crossings.guess value="true"/>
+    </pedestrian>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+        <railway.topology.repair.stop-turn value="true"/>
+    </railway>
+
+    <report>
+        <verbose value="true"/>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+	<vType id="car" vClass="passenger"/>
+    <busStop id="-1341753267" name="La Martinière" lane="-160212545#0_1" startPos="36.27" endPos="51.27" friendlyPos="true" lines="91-11 9"/>
+    <busStop id="-1341778473" name="Gare du Guichet RER" lane="-701943514_1" startPos="74.88" endPos="83.11" friendlyPos="true" lines="9"/>
+    <busStop id="-1345294971" name="Orme des Merisiers" lane="-832745421#3_0" startPos="159.03" endPos="174.03" friendlyPos="true" lines="9 91-06 91-10 11"/>
+    <busStop id="-1420982413" name="Versailles" lane="-527943457#1_1" startPos="13.10" endPos="28.10" friendlyPos="true" lines="9"/>
+    <busStop id="-1429827411" name="Aristide Briand" lane="-380969252_1" startPos="24.67" endPos="39.67" friendlyPos="true" lines="8"/>
+    <busStop id="-1722769930" name="Martinière" lane="-22736355#1_1" startPos="0.21" endPos="15.21" friendlyPos="true" lines="9 16"/>
+    <busStop id="-1722769969" name="Mairie de Saclay" lane="-482015497#3_1" startPos="0.00" endPos="14.78" friendlyPos="true" lines="9 16"/>
+    <busStop id="-1855952972" name="De Broglie" lane="-475020758#2_1" startPos="58.54" endPos="73.54" friendlyPos="true" lines="7"/>
+    <busStop id="-3833357079" name="Châteaufort" lane="-233525228#0_1" startPos="50.93" endPos="65.93" friendlyPos="true" lines="8"/>
+    <busStop id="-3980845786" name="Joliot-Curie" lane="-832745421#10_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="9 91-06 91-10"/>
+    <busStop id="-4096918910" name="Université Paris-Saclay" lane="-863336412#4_0" startPos="18.06" endPos="33.06" friendlyPos="true" lines="9 91-06 91-10"/>
+    <busStop id="-5905118364" name="Raoul Dautry - CEA Porte Est" lane="-436119957#1_0" startPos="718.32" endPos="733.32" friendlyPos="true" lines="9 91-06 91-10"/>
+    <busStop id="-5905118384" name="Saint-Aubin" lane="-436119957#2_0" startPos="46.51" endPos="61.51" friendlyPos="true" lines="9 91-06 91-10"/>
+    <busStop id="-5905124633" name="Mare du Vivier - CEA Porte Sud" lane="-436119957#1_0" startPos="32.18" endPos="47.18" friendlyPos="true" lines="9 91-06 91-10"/>
+    <busStop id="-6414402742" name="Lieu de Vie" lane="-475020758#7_1" startPos="20.22" endPos="35.22" friendlyPos="true" lines="7 11"/>
+    <busStop id="-6414402744" name="Université Paris-Saclay" lane="-20437767#1_0" startPos="49.13" endPos="64.13" friendlyPos="true" lines="7 91-08"/>
+    <busStop id="-6451425151" name="CentraleSupélec" lane="-417206210#2_1" startPos="26.42" endPos="36.24" friendlyPos="true" lines="11"/>
+    <busStop id="-6451425152" name="Joliot Curie" lane="-20437797#4_1" startPos="4.34" endPos="19.34" friendlyPos="true" lines="11"/>
+    <busStop id="-6551894423" name="Corbeville" lane="-361585732#1_0" startPos="28.19" endPos="41.59" friendlyPos="true" lines="91-06 91-08 91-10"/>
+    <busStop id="-6551894444" name="Moulon TCSP" lane="-863336412#1_0" startPos="22.60" endPos="37.60" friendlyPos="true" lines="9 91-06 91-10"/>
+    <busStop id="-6551894447" name="Palaiseau - Campus" lane="-219719294#8_0" startPos="32.33" endPos="47.33" friendlyPos="true" lines="91-06 91-10 91-08"/>
+    <busStop id="-6552378817" name="Mûriers" lane="-219752764#1_1" startPos="38.30" endPos="53.30" friendlyPos="true" lines="9"/>
+    <busStop id="-6552378820" name="Joliot-Curie" lane="-720845271_1" startPos="0.00" endPos="7.50" friendlyPos="true" lines="91-06 91-10 9"/>
+    <busStop id="-6558738846" name="École du Guichet" lane="-47463290#0_1" startPos="73.65" endPos="88.65" friendlyPos="true" lines="8"/>
+    <busStop id="-677507133" name="Bois des Rames" lane="-115229320#1_1" startPos="0.00" endPos="8.22" friendlyPos="true" lines="7"/>
+    <busStop id="-6938530461" name="Place Marguerite Perey" lane="-697839700_0" startPos="94.61" endPos="103.97" friendlyPos="true" lines="91-06 91-10"/>
+    <busStop id="-8105460805" name="La Martinière" lane="-160212545#0_1" startPos="31.11" endPos="46.11" friendlyPos="true" lines="91-11"/>
+    <busStop id="1114038111" name="Corbeville" lane="361585732#1_0" startPos="9.61" endPos="24.61" friendlyPos="true" lines="91-06 91-10 91-08"/>
+    <busStop id="1114038113" name="Mûriers" lane="219752764#3_1" startPos="76.49" endPos="91.49" friendlyPos="true" lines="9"/>
+    <busStop id="1192019234" name="Le Guichet (voie 2)" lane="103240673_0" startPos="28.31" endPos="228.31" friendlyPos="true" lines="B">
+        <access lane="164014461_0" pos="4.36" length="20.92" friendlyPos="1"/>
+        <access lane="164014462_0" pos="4.63" length="23.58" friendlyPos="1"/>
+        <access lane="164014466_0" pos="0.00" length="11.96" friendlyPos="1"/>
+        <access lane="37522154#2_0" pos="12.95" length="18.24" friendlyPos="1"/>
+        <access lane="42294705_0" pos="7.95" length="19.50" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1335923953" name="Plateau de Moulon - Corbeville" lane="20437760#1_0" startPos="0.00" endPos="10.31" friendlyPos="true" lines="9"/>
+    <busStop id="1335923953@7886546" name="Plateau de Moulon - Corbeville" lane="697183355#0_1" startPos="0.00" endPos="8.09" friendlyPos="true" lines="9"/>
+    <busStop id="1341753310" name="La Martinière" lane="414507706_1" startPos="54.02" endPos="69.02" friendlyPos="true" lines="91-11"/>
+    <busStop id="1341753421" name="La Martinière" lane="414507706_1" startPos="74.37" endPos="89.37" friendlyPos="true" lines="91-11 16"/>
+    <busStop id="1345294973" name="Orme des Merisiers" lane="832745421#3_0" startPos="174.68" endPos="189.68" friendlyPos="true" lines="91-06 91-10 9"/>
+    <busStop id="1363114625" name="Martinière" lane="140997933_1" startPos="10.26" endPos="25.26" friendlyPos="true" lines="8"/>
+    <busStop id="1363114626" name="Corniche" lane="26824603_1" startPos="22.73" endPos="37.73" friendlyPos="true" lines="8"/>
+    <busStop id="1413392430" name="Gare du Guichet RER" lane="701943515_0" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="1413392487" name="Gare du Guichet RER" lane="47463090#1_0" startPos="12.94" endPos="20.44" friendlyPos="true"/>
+    <busStop id="1413392596" name="Gare du Guichet RER" lane="701943517_0" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="1420980850" name="École du Guichet" lane="47463290#0_1" startPos="5.29" endPos="20.29" friendlyPos="true" lines="8"/>
+    <busStop id="1420982408" name="Versailles" lane="527943457#1_1" startPos="10.40" endPos="25.40" friendlyPos="true" lines="9"/>
+    <busStop id="1429827410" name="Buisson" lane="233525227_0" startPos="2.68" endPos="17.68" friendlyPos="true" lines="8"/>
+    <busStop id="1482218088" name="CEA Porte Nord" lane="96000895#2_1" startPos="37.43" endPos="52.43" friendlyPos="true" lines="91-11 91-10"/>
+    <busStop id="1722769927" name="Le Christ de Saclay" lane="541344750_1" startPos="11.76" endPos="26.76" friendlyPos="true" lines="91-11"/>
+    <busStop id="1722770104" name="Université Paris-Saclay" lane="20437767#1_0" startPos="111.05" endPos="126.05" friendlyPos="true" lines="7 91-08"/>
+    <busStop id="1732826814" name="Gare du Guichet RER" lane="697865649_0" startPos="44.02" endPos="59.02" friendlyPos="true" lines="91-08">
+        <access lane="-701943514_0" pos="21.09" length="36.61" friendlyPos="1"/>
+        <access lane="701943514_0" pos="61.62" length="22.51" friendlyPos="1"/>
+        <access lane="701943515_0" pos="0.00" length="14.84" friendlyPos="1"/>
+        <access lane="701943516_0" pos="20.21" length="14.62" friendlyPos="1"/>
+        <access lane="701943517_0" pos="15.55" length="34.06" friendlyPos="1"/>
+    </busStop>
+    <busStop id="1732826824" name="Gare du Guichet" lane="701943518_0" startPos="11.32" endPos="20.22" friendlyPos="true" lines="9"/>
+    <busStop id="1732826840" name="Gare du Guichet RER" lane="701943519_0" startPos="5.81" endPos="15.17" friendlyPos="true" lines="91-08"/>
+    <busStop id="1855952971" name="Bois des Rames" lane="115229320#2_1" startPos="0.00" endPos="10.51" friendlyPos="true" lines="7"/>
+    <busStop id="1894213657" name="CEA Porte Nord" lane="96000896#0_1" startPos="728.34" endPos="742.99" friendlyPos="true" lines="91-11 91-10"/>
+    <busStop id="243898123" name="Plateau de Moulon - Corbeville" lane="22737007#1_0" startPos="17.46" endPos="24.46" friendlyPos="true" lines="9"/>
+    <busStop id="3137372917" name="Joliot-Curie" lane="720845272#1_1" startPos="10.68" endPos="25.68" friendlyPos="true"/>
+    <busStop id="3842587705" name="Aristide Briand" lane="142757141#0_1" startPos="101.53" endPos="116.53" friendlyPos="true" lines="8"/>
+    <busStop id="3980845803" lane="436119957#2_0" startPos="536.14" endPos="551.14" friendlyPos="true"/>
+    <busStop id="3980845814" name="Mare du Vivier - CEA Porte Sud" lane="436119957#1_0" startPos="718.84" endPos="733.84" friendlyPos="true"/>
+    <busStop id="3980845835" name="Raoul Dautry - CEA Porte Est" lane="436119957#1_0" startPos="32.21" endPos="47.21" friendlyPos="true"/>
+    <busStop id="4340028757" name="Christ de Saclay" lane="746815351_0" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="471159029" name="Gare du Guichet RER" lane="174970474#1_1" startPos="18.75" endPos="26.25" friendlyPos="true"/>
+    <busStop id="5210102792" name="Mairie de Saclay" lane="22736355#0_1" startPos="12.31" endPos="27.31" friendlyPos="true" lines="16 9"/>
+    <busStop id="5836393503" name="Lozère (voie 2)" lane="103240673_0" startPos="1468.93" endPos="1668.93" friendlyPos="true" lines="B"/>
+    <busStop id="5905118351" name="Mare du Vivier - CEA Porte Sud" lane="436119957#1_0" startPos="728.25" endPos="743.25" friendlyPos="true" lines="91-06 91-10 9"/>
+    <busStop id="5905118364@2393297" name="Raoul Dautry - CEA Porte Est" lane="20437822#1_1" startPos="26.38" endPos="41.38" friendlyPos="true" lines="10"/>
+    <busStop id="5905118364@2393298" name="Raoul Dautry - CEA Porte Est" lane="20437812#0_1" startPos="84.56" endPos="99.56" friendlyPos="true" lines="10"/>
+    <busStop id="5905123676" name="Raoul Dautry - CEA Porte Est" lane="436119957#1_0" startPos="42.62" endPos="57.62" friendlyPos="true" lines="91-06 91-10 9"/>
+    <busStop id="635550116" name="Lozère (voie 1)" lane="30037881_0" startPos="1255.62" endPos="1455.62" friendlyPos="true">
+        <access lane="-118794041_0" pos="345.38" length="49.47" friendlyPos="1"/>
+        <access lane="-531734424_0" pos="0.00" length="135.63" friendlyPos="1"/>
+        <access lane="118794041_0" pos="0.00" length="56.84" friendlyPos="1"/>
+        <access lane="158691269#0_0" pos="0.00" length="128.26" friendlyPos="1"/>
+        <access lane="531734424_0" pos="424.00" length="131.20" friendlyPos="1"/>
+    </busStop>
+    <busStop id="6414402745" name="Lieu de Vie" lane="475020758#5_1" startPos="96.14" endPos="111.14" friendlyPos="true" lines="7 11"/>
+    <busStop id="6414402746" name="De Broglie" lane="475020758#1_1" startPos="19.73" endPos="27.68" friendlyPos="true" lines="7 11"/>
+    <busStop id="6451425150" name="CentraleSupélec" lane="417206210#2_1" startPos="10.02" endPos="25.02" friendlyPos="true" lines="11"/>
+    <busStop id="6451425153" name="Joliot Curie" lane="20437797#4_1" startPos="4.81" endPos="19.81" friendlyPos="true" lines="11"/>
+    <busStop id="6543632507" name="Couturier" lane="26824594_1" startPos="37.90" endPos="45.40" friendlyPos="true"/>
+    <busStop id="6551894422" name="Palaiseau - Campus" lane="219719294#8_0" startPos="49.83" endPos="64.83" friendlyPos="true" lines="91-06 91-08 91-10"/>
+    <busStop id="6551894424" name="Université Paris-Saclay" lane="863336412#4_0" startPos="15.60" endPos="30.60" friendlyPos="true" lines="91-06 91-10 9"/>
+    <busStop id="6551894425" name="Moulon TCSP" lane="863336412#1_0" startPos="17.66" endPos="32.66" friendlyPos="true" lines="91-06 91-10 9"/>
+    <busStop id="6551894428" name="Saint-Aubin" lane="436119957#2_0" startPos="545.25" endPos="560.25" friendlyPos="true" lines="91-06 91-10 9"/>
+    <busStop id="6551894431" name="Christ de Saclay" lane="720574245#0_1" startPos="199.16" endPos="214.16" friendlyPos="true" lines="91-11 91-10"/>
+    <busStop id="6551894431@7886546" name="Christ de Saclay" lane="741972943_1" startPos="39.01" endPos="46.07" friendlyPos="true" lines="9"/>
+    <busStop id="6553023103" name="Fresnel - Vauve" lane="697770152_1" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="6553032347" name="Fresnel - Vauve" lane="410000810#0_1" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="6592019208" name="Gare du Guichet RER" lane="701943518_0" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="6592019209" name="Gare du Guichet RER" lane="701943516_0" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="6938530459" name="Ferme de la Vauve" lane="406513809#0_1" startPos="31.79" endPos="46.79" friendlyPos="true" lines="91-06 91-10"/>
+    <busStop id="6938530460" name="Ferme de la Vauve" lane="747059915#1_1" startPos="12.53" endPos="27.53" friendlyPos="true" lines="91-06 91-10"/>
+    <busStop id="6938530462" name="Place Marguerite Perey" lane="697839700_0" startPos="0.00" endPos="12.93" friendlyPos="true" lines="91-06 91-10"/>
+    <busStop id="6945826183" name="Christ de Saclay" lane="741972942_0" startPos="9.46" endPos="16.96" friendlyPos="true"/>
+    <busStop id="6945826184" name="Christ de Saclay" lane="746815353_0" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="6945879885" name="Christ de Saclay" lane="541365489_0" startPos="13.02" endPos="20.52" friendlyPos="true"/>
+    <busStop id="6975361991" name="Parc Orsay Université" lane="134233673#2_1" startPos="8.51" endPos="16.01" friendlyPos="true"/>
+    <busStop id="6975361992" name="Parc Orsay Université" lane="134233673#0_1" startPos="0.00" endPos="7.50" friendlyPos="true"/>
+    <busStop id="8109915754" name="Martinière" lane="22736355#1_1" startPos="30.77" endPos="44.19" friendlyPos="true"/>
+    <busStop id="8109915755" name="Mairie de Saclay" lane="22736355#0_1" startPos="10.66" endPos="25.66" friendlyPos="true"/>
+    <busStop id="8109915759" name="Mairie de Saclay" lane="482015497#3_1" startPos="7.10" endPos="19.56" friendlyPos="true"/>
+    <busStop id="972212303" name="Polytechnique Laboratoire" lane="339736822#0_0" startPos="0.00" endPos="0.00" friendlyPos="true" lines="14"/>
+</additional>

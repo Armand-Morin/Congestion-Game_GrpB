@@ -1,0 +1,89 @@
+<additional>
+  <flow type="car" id="polytech_student_carflow_d128_0" begin="0.0" end="600.0" from="134889167#1" to="174955283#6" number="0"/>
+  <flow type="car" id="polytech_student_carflow_d128_south_0" begin="0.0" end="600.0" from="-55429077#0" to="174955283#6" number="2"/>
+  <flow type="car" id="polytech_student_carflow_d446_0" begin="0.0" end="600.0" from="44848109#1" to="174955283#6" number="1"/>
+  <flow type="car" id="polytech_student_carflow_nicolas_0" begin="0.0" end="600.0" from="446506377#2" to="174955283#6" number="0"/>
+  <flow type="car" id="polytech_student_carflow_n118_0" begin="0.0" end="600.0" from="22737005#1" to="174955283#6" number="2"/>
+  <personFlow id="polytech_student_person_public_transport_91.06.10_east_flow_0" begin="0.0" end="600.0" number="22">
+    <ride from="134889167#0" busStop="6551894425" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_91.06.10_west_flow_0" begin="0.0" end="600.0" number="22">
+    <ride from="440954769" busStop="-6551894444" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9_east_flow_0" begin="0.0" end="600.0" number="15">
+    <ride from="134889167#0" busStop="6551894425" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9_west_flow_0" begin="0.0" end="600.0" number="15">
+    <ride from="44848109#1" busStop="-6551894444" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9108_east_flow_0" begin="0.0" end="600.0" number="7">
+    <ride from="145831277#3" busStop="1722770104" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9108_west_flow_0" begin="0.0" end="600.0" number="7">
+    <ride from="44848109#1" busStop="-6414402744" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_7_east_flow_0" begin="0.0" end="600.0" number="5">
+    <ride from="145831277#3" busStop="-6414402742" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_11_east_flow_0" begin="0.0" end="600.0" number="5">
+    <ride from="134889167#0" busStop="-6414402742" lines="ANY"/>
+  </personFlow>
+  <flow type="car" id="polytech_student_carflow_d128_1" begin="600.0" end="1200.0" from="134889167#1" to="174955283#6" number="3"/>
+  <flow type="car" id="polytech_student_carflow_d128_south_1" begin="600.0" end="1200.0" from="-55429077#0" to="174955283#6" number="9"/>
+  <flow type="car" id="polytech_student_carflow_d446_1" begin="600.0" end="1200.0" from="44848109#1" to="174955283#6" number="5"/>
+  <flow type="car" id="polytech_student_carflow_nicolas_1" begin="600.0" end="1200.0" from="446506377#2" to="174955283#6" number="1"/>
+  <flow type="car" id="polytech_student_carflow_n118_1" begin="600.0" end="1200.0" from="22737005#1" to="174955283#6" number="9"/>
+  <personFlow id="polytech_student_person_public_transport_91.06.10_east_flow_1" begin="600.0" end="1200.0" number="97">
+    <ride from="134889167#0" busStop="6551894425" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_91.06.10_west_flow_1" begin="600.0" end="1200.0" number="97">
+    <ride from="440954769" busStop="-6551894444" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9_east_flow_1" begin="600.0" end="1200.0" number="65">
+    <ride from="134889167#0" busStop="6551894425" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9_west_flow_1" begin="600.0" end="1200.0" number="65">
+    <ride from="44848109#1" busStop="-6551894444" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9108_east_flow_1" begin="600.0" end="1200.0" number="32">
+    <ride from="145831277#3" busStop="1722770104" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9108_west_flow_1" begin="600.0" end="1200.0" number="32">
+    <ride from="44848109#1" busStop="-6414402744" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_7_east_flow_1" begin="600.0" end="1200.0" number="21">
+    <ride from="145831277#3" busStop="-6414402742" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_11_east_flow_1" begin="600.0" end="1200.0" number="21">
+    <ride from="134889167#0" busStop="-6414402742" lines="ANY"/>
+  </personFlow>
+  <flow type="car" id="polytech_student_carflow_d128_2" begin="1200.0" end="1800.0" from="134889167#1" to="174955283#6" number="0"/>
+  <flow type="car" id="polytech_student_carflow_d128_south_2" begin="1200.0" end="1800.0" from="-55429077#0" to="174955283#6" number="2"/>
+  <flow type="car" id="polytech_student_carflow_d446_2" begin="1200.0" end="1800.0" from="44848109#1" to="174955283#6" number="1"/>
+  <flow type="car" id="polytech_student_carflow_nicolas_2" begin="1200.0" end="1800.0" from="446506377#2" to="174955283#6" number="0"/>
+  <flow type="car" id="polytech_student_carflow_n118_2" begin="1200.0" end="1800.0" from="22737005#1" to="174955283#6" number="2"/>
+  <personFlow id="polytech_student_person_public_transport_91.06.10_east_flow_2" begin="1200.0" end="1800.0" number="22">
+    <ride from="134889167#0" busStop="6551894425" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_91.06.10_west_flow_2" begin="1200.0" end="1800.0" number="22">
+    <ride from="440954769" busStop="-6551894444" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9_east_flow_2" begin="1200.0" end="1800.0" number="14">
+    <ride from="134889167#0" busStop="6551894425" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9_west_flow_2" begin="1200.0" end="1800.0" number="14">
+    <ride from="44848109#1" busStop="-6551894444" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9108_east_flow_2" begin="1200.0" end="1800.0" number="7">
+    <ride from="145831277#3" busStop="1722770104" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_9108_west_flow_2" begin="1200.0" end="1800.0" number="7">
+    <ride from="44848109#1" busStop="-6414402744" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_7_east_flow_2" begin="1200.0" end="1800.0" number="4">
+    <ride from="145831277#3" busStop="-6414402742" lines="ANY"/>
+  </personFlow>
+  <personFlow id="polytech_student_person_public_transport_11_east_flow_2" begin="1200.0" end="1800.0" number="4">
+    <ride from="134889167#0" busStop="-6414402742" lines="ANY"/>
+  </personFlow>
+</additional>
