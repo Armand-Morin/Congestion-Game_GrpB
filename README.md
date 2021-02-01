@@ -24,7 +24,7 @@ Moulon district transport modeling using SUMO traffic simulation software
 - Bus stops (trips.trips.xml)
 - ....
 
-### Area simulated :
+### Area simulated : the area of the Moulon plateau (Centralesupelec)
 ![image](https://user-images.githubusercontent.com/72650161/105868306-57872400-5ff6-11eb-9796-d487fb2eb0d1.png)
 
 ### Import a Map & Convert from .osm to xml (Sumo) :
