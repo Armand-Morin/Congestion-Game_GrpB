@@ -9,6 +9,13 @@ Moulon district transport modeling using SUMO traffic simulation software
 - run build.bat file to generate some xml files (by default: random trips)
 - change inputs and outputs in osm.sumocfg
 
+
+### DEMO
+
+![osm train1](https://user-images.githubusercontent.com/72650161/106451107-5e92b400-6486-11eb-8bb0-e386dd91efd1.gif)
+
+
+
 ### Files explanation:
 
 This file is used to launch the simulation
