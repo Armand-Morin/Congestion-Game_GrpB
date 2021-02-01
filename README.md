@@ -9,10 +9,6 @@ Moulon district transport modeling using SUMO traffic simulation software
 - run build.bat file to generate some xml files (by default: random trips)
 - change inputs and outputs in osm.sumocfg
 
-### Resources:
-- [SUMO DOC](https://sumo.dlr.de/docs)
-- [SUMO TUTORIALS](https://sumo.dlr.de/docs/Tutorials.html)
-
 ### Files explanation:
 - Node file (.node.xml)
 - Edge file (.edge.xml)
@@ -47,4 +43,10 @@ Moulon district transport modeling using SUMO traffic simulation software
 speed of cars in the network
 
 ![vitesse_reseau](https://user-images.githubusercontent.com/72650161/106245493-cf2e9c00-620c-11eb-997d-9381d6ccb606.png)
+
+
+### Resources used:
+- [SUMO DOC](https://sumo.dlr.de/docs)
+- [SUMO TUTORIALS](https://sumo.dlr.de/docs/Tutorials.html)
+
 
